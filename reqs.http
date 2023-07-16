@@ -1,0 +1,17 @@
+GET https://hola-codespace-zyet.onrender.com/demo/all
+
+
+#####
+
+POST https://hola-codespace-zyet.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Johan&email=samseijuro@idat.edu.pe
+
+
+#####
+
+DELETE GET https://hola-codespace-zyet.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=1
