@@ -1,2 +1,5 @@
+com/example/demo/UserRepository.class
 com/example/demo/DemoApplication.class
 com/example/demo/Controller.class
+com/example/demo/User.class
+com/example/demo/ApiController.class
