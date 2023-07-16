@@ -1,17 +1,20 @@
-GET https://hola-codespace-zyet.onrender.com/demo/all
+@dominio = hola-codespace-zyet
+
+
+GET https://{{dominio}}.onrender.com/demo/all
 
 
 #####
 
-POST https://hola-codespace-zyet.onrender.com/demo/add
+POST https://{{dominio}}.onrender.com/demo/add
 Content-Type: application/x-www-form-urlencoded
 
-name=Johan&email=samseijuro@idat.edu.pe
+name=Johan&email=samseijuro@gmail.com
 
 
 #####
 
-DELETE GET https://hola-codespace-zyet.onrender.com/demo/del
+DELETE GET https://{{dominio}}.onrender.com/demo/del
 Content-Type: application/x-www-form-urlencoded
 
 id=1
